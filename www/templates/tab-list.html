@@ -1,6 +1,35 @@
+
+
+
 <ion-view view-title="List">
   <ion-content>
-    <ion-list>
+
+  <!--<input type="button" value="Add Friend Name"/>
+<input type="button" value="Remove Name"/>
+<br/><br/>
+<table id="dataTable" width="100%" border="1">
+</table> -->
+
+<div id="Add">
+<button class="button button-block button-outline ion-plus-circled button-positive" ng-click="openModal()">
+  Add Friends
+</button>
+</div>
+
+<div class="list" style="display:none"
+  <label class="item item-input">
+    <input type="text" placeholder="First Name">
+  </label>
+  <label class="item item-input">
+    <input type="text" placeholder="Last Name">
+  </label>
+  <label class="item item-input">
+    <textarea placeholder="Comments"></textarea>
+  </label>
+</div>
+
+ 
+ <!-- <ion-list>
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
         <img ng-src="{{chat.face}}">
         <h2>{{chat.name}}</h2>
@@ -11,6 +40,7 @@
           Delete
         </ion-option-button>
       </ion-item>
-    </ion-list>
-  </ion-content>
-</ion-view>
+    </ion-list> -->
+    </ion-content>
+</ion-view> 
+
